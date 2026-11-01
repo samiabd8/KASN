@@ -1,0 +1,29 @@
+Package: kasn
+Type: Package
+Title: Kolmogorov-Arnold Sieve Networks
+Version: 0.1.0
+Authors@R:
+    person("Sami", "Abdurahman", email = "you@example.org",
+           role = c("aut", "cre", "cph"))
+Description: R interface to the 'kasn' Python package, which implements
+    Kolmogorov-Arnold Sieve Networks (KASN). A KASN is a sieve extremum
+    estimator built from a deep Kolmogorov-Arnold network with learned
+    B-spline edges, Group Lasso regularisation on the edge coefficients and
+    an adaptive pruning rule. It targets nonparametric regression with many
+    covariates under weak (mixing) dependence.
+License: MIT + file LICENSE
+URL: https://github.com/samiabd8/kasn
+BugReports: https://github.com/samiabd8/kasn/issues
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports:
+    reticulate (>= 1.41),
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+SystemRequirements: Python (>= 3.9) with the 'kasn' module and PyTorch
+    (>= 2.3). Provisioned automatically through 'reticulate::py_require()'.
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
