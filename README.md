@@ -1,4 +1,4 @@
-# kasn
+# KASN
 
 Kolmogorov-Arnold Sieve Networks for nonparametric estimation and semiparametric inference.
 
