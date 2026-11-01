@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "kasn: Kolmogorov-Arnold Sieve Networks"
+abstract: >-
+  Kolmogorov-Arnold Sieve Networks for nonparametric estimation and
+  semiparametric inference. Python package (PyTorch backend, scikit-learn
+  API) with an R interface.
+authors:
+  - family-names: Abdurahman
+    given-names: Sami
+license: MIT
+repository-code: "https://github.com/samiabd8/KASN"
+url: "https://pypi.org/project/kasn/"
+keywords:
+  - sieve estimation
+  - Kolmogorov-Arnold networks
+  - group lasso
+  - nonparametric regression
+  - econometrics
